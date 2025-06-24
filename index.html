@@ -48,21 +48,21 @@
 
 									Try adding "border-radius: 50%;" to the style attribute.
 								-->
-								<img src="images/me.jpg" style="width:280px; height:280px; object-fit: cover;">
+								<img src="images/me.jpg" style="width:280px; height:auto; object-fit: cover;">
 								<!-- 	Here is a paragraph where you can put your position and institution, or
 									a short line about yourself.
 								-->
 								<p>
 									PhD student <br>
 
-									Max Planck Institute for Astronomy (MPIA) <br>
+									Max Planck Institute for Astronomy (MPIA), Heidelberg, Germany <br>
 
 									APEx Department
 								</p>
 								<!-- Here is a paragraph where you can put a link to your CV -->
 								<p>
 									<!-- Note you will want to change where this points to! -->
-									<a href="images/me.jpg" target="_blank">Curriculum Vitae</a>
+<!--									<a href="images/me.jpg" target="_blank">Curriculum Vitae</a>-->
 								</p>
 							</div>
 						</div>
@@ -104,26 +104,33 @@
 						<article id="about">
 							<h2 class="major">About Me</h2>
 							<!-- Here is an image that you can customize for this page -->
-							<span class="image main">
-								<img src="images/pic01.jpg" alt=""/>
-							</span>
+
 							<!-- Here are three paragraphs where you can fill out information about yourself -->
 							<p>
-								<!-- Items contained in <b> tags are bolded! -->
-								<b>Education:</b>
-							</p>
-							I have a bachelor degree (2022) and a MSc (2025) in Astronomy, both from the University of São Paulo, Brazil, where I worked under the supervision of Prof. Dr. Jorge Meléndez. During my bachelor,
-							I did an internship at Space Telescope Science Institute, under supervision of Dr. Nestor Espinoza, studying the radial velocity method for the detection of exoplanets.. In my MSc,
-							I worked with Dr. Lorenzo Spina and Dr. Sara Lucatello at Padova Observatory, building Neural Network to obtain chemical abundances and atmospheric parameters of solar-type stars. Currently I am a PhD student
-							at Max Planck Institute for Astronomy (Heidelberg, Germany), working under supervision of Dr. Laura Kreidberg in the characterization of warm giant exoplanets.
-							<p>
 
+								I am currently a PhD student at the Atmospheric Physics of Exoplanets Department (APEx), at the Max Planck Institute for Astronomy, under supervision of Prof. Dr. Laura Kreidberg.
+								We are characterizing warm giant planets, in particular their bulk composition.
+
+								<!-- Items contained in <b> tags are bolded! -->
+								<br><br><b>Education:</b>
+							</p>
+
+							<ul>
+								<li>PhD in Astronomy (2025 - now). Max Planck Institute for Astronomy, Germany. Supervisor: Prof. Dr. Laura Kreidberg.</li><br>
+							  <li>MSc in Astronomy (2022-2025). University of São Paulo, Brazil. Supervisor: Prof. Dr. Jorge Meléndez.</li><br>
+							  <li>Msc Internship (2024). Observatory of Padova, Italy. Supervisors: Dr. Lorenzo Spina and Dr. Sara Lucatello.</li><br>
+							  <li>Bachelor in Astronomy (2018-2022). University of São Paulo, Brazil. Supervisor: Prof. Dr. Jorge Meléndez.</li><br>
+								<li>Undergrad internship (2020). Space Telescope Science Institute, USA. Supervisor: Dr. Néstor Espinoza.</li><br>
+							</ul>
+
+
+							<p>
 
 								<b>Research Interests:</b>
-							</p> I am interested in the characterization of exoplanets, more e specifically warm giants, and how its mass and bulk metallicity are related to formation mechanisms and stellar type.
-							I am also interested in the chemical composition of solar type stars and the effect of the presence of planets on its chemical abundances.
+							</p> I am interested in the characterization of exoplanets, more specifically of warm giants, and how their mass and bulk metallicity are related to different formation mechanisms and stellar type.
+							I am also interested in the chemical composition of solar type stars and the effect of the presence of planets on their chemical abundances.
 							<p>
-								<b>Publications:</b> <a href="https://ui.adsabs.harvard.edu/search/filter_database_fq_database=AND&filter_database_fq_database=((database%3Aastronomy%20OR%20database%3Aphysics))&filter_database_fq_database=database%3A%22astronomy%22&fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(((database%3Aastronomy%20OR%20database%3Aphysics))%20AND%20database%3A%22astronomy%22)&q=%20author%3A%22martos%2C%20giulia%22&sort=date%20desc%2C%20bibcode%20desc&p_=0">You can check out my publications in this link</a>
+								<br><b>Publications:</b><br><br> You can check out my publications in this <a  href="https://ui.adsabs.harvard.edu/search/filter_database_fq_database=AND&filter_database_fq_database=((database%3Aastronomy%20OR%20database%3Aphysics))&filter_database_fq_database=database%3A%22astronomy%22&fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(((database%3Aastronomy%20OR%20database%3Aphysics))%20AND%20database%3A%22astronomy%22)&q=%20author%3A%22martos%2C%20giulia%22&sort=date%20desc%2C%20bibcode%20desc&p_=0">link.</a>
 							</p>
 						</article>
 
@@ -136,7 +143,9 @@
 									the next line.
 								-->
 
-								<b> The mass-bulk metallicity relation for gas giant planets</b><br>
+								<b> The mass-bulk metallicity relation for gas giant planets (in progress)</b>
+
+								<p style="font-size: 18px; font-style: italic;">Giulia Martos and Laura Kreiberg</p>
 
 								Bulk metallicity is a fundamental property of gas giant exoplanets, key to constraining models of planetary formation and evolution.
 								Metal enrichment can be inferred based on mass and radius measurements alone, thanks to the higher densities expected for more metal-rich compositions.
@@ -144,11 +153,44 @@
 								planet formation. However, these results are based on an inhomogeneous data set with a range of assumptions about the stellar (and thus planetary) parameters.
 								In this work, we revisit the mass-bulk metallicity trend, with a larger sample of planets and improved precision and accuracy for the stellar masses and radii.
 								We combine SED fitting, GAIA DR3 parallaxes, and uniform modeling of the transits and radial velocity measurements using archival data. With updated planet masses
-								and radii, we use the interior structure code GASTLI to infer the metal enrichment of the planets. The improved precision and larger sample enable a test of the
-								intrinsic scatter in the mass-bulk metallicity relation, as well as a search for trends in metal enrichment as a function of stellar type.
+								and radii, we use the interior structure code GASTLI to infer the metal enrichment of the planets. These precise and robust measurements of metal enrichment for will enable:
+								(1) quantitative tests of predictions from planet formation models, (2) investigation of trends in metal enrichment with system parameters like stellar type and planet multiplicity, and
+							(3) a benchmark for comparison with upcoming atmospheric metallicity measurements for warm giants from JWST.
 
+								<br><br>
 
-								<br><br><b>Metallicity and age effects on lithium depletion in solar analogs</b><br>
+								<div style="text-align: center;">
+								  <img src="images/mass_met_rel.png" style="height: 400px; width: auto;">
+								  <p style="font-style: italic; margin-top: 8px;">This figure shows our first result for the system HAT-P-17, compared to the Solar System giants and the sample of Thorngren et al. (2016).</p>
+								</div>
+
+							<br>
+
+							</p>
+							<p>
+								<br><b>Signatures of planets and Galactic subpopulations in solar analogs</b>
+
+								<p style="font-size: 18px; font-style: italic;">Giulia Martos, Jorge Meléndez, Lorenzo Spina, and Sara Lucatello</p>
+
+								Precise chemical abundances are key for the characterization of planet hosts, since the formation and the presence of planets around the stars can alter their chemical composition, leaving
+								chemical fingerprints that can be revealed via detailed analyses of the spectrum. In this work, we obtained precise atmospheric parameters and chemical abundances automatically using neural networks for 99 solar twins and
+								solar analogs to find signatures of exoplanets, as well as to assess how peculiar the Sun is compared to these stars and to analyze any possible fine structures in the Galactic thin disk.
+								The results we obtained are in line with the literature, with average differences and standard deviations of (2 ± 27) K for Teff , (0.00 ± 0.06) dex for log g, (0.00 ± 0.02) dex for [Fe/H], (−0.01 ± 0.05) km s−1 for
+								microturbulence velocity (vt ), (0.02 ± 0.08) km s−1 for the macro turbulence velocity (vmacro), and (−0.12 ± 0.26) km s−1 for the projected rotational velocity (vsini). Regarding the chemical abundances,
+								most of the elements agree with the literature within 0.01 - 0.02 dex. We found that the Sun is more depleted in refractory elements compared to volatiles than 89% of the studied solar analogs,
+								with a significance of 9.5σ when compared to the stars without detected exoplanets. We also found the possible presence of three subpopulations in the solar analogs: one Cu-rich, one Cu-poor,
+								and the last one being slightly older and poor in Na.<br><br>
+
+								<div style="text-align: center;">
+								  <img src="images/sun_twins.png" style="height: 250px; width: auto;">
+								  <p style="font-style: italic; margin-top: 8px;">The Sun is depleted in refractory elements in relation to volatiles when compared to the average of 99 solar analogs.</p>
+								</div>
+
+							</p>
+
+							<br><br><b>Metallicity and age effects on lithium depletion in solar analogs</b><br><br>
+
+								<p style="font-size: 18px; font-style: italic;">Giulia Martos, Jorge Meléndez, Anne Rathsam and Gabriela Carvalho-Silva</p>
 
 								Lithium is a fragile element, that is destroyed at relatively low temperatures in the interior of stars.
 								The lithium present in the photospheres of solar-type stars is transported to the inner parts by convection, reaching regions even somewhat below the convection zone, by non-standard
@@ -157,31 +199,43 @@
 								found robust anticorrelations between lithium abundance and both metallicity and age, with a significance above 10σ in both cases. Our results agree qualitatively with theoretical predictions
 								and are useful to constrain non-standard models of Li depletion, and to better understand transport and mixing mechanisms inside stars.
 
+							<br><br>
 
-							</p>
-							<p>
-								<b>Signatures of planets and Galactic subpopulations in solar analogs</b><br>Project description, including further links to posters, talks, publications.
+								<div style="display: flex; gap: 20px;">
+								  <div style="flex: 1; text-align: center;">
+									<img src="images/lithium.png" style="width: 100%; height: 250px;">
+									<p style="font-style: italic; margin-top: 8px;">Lithium abundance decreases with both age and [Fe/H] for solar analogs.</p>
+								  </div>
+								  <div style="flex: 1; text-align: center;">
+									<img src="images/spectra_comp.png"  style="width: 100%; height: 250px;">
+									<p style="font-style: italic; margin-top: 8px;">Spectrum of three solar analogs with similar temperatures and ages, showing that the more metallic star has lower lithium abundance.</p>
+								  </div>
+								</div>
 
-								<span class="image main">
-								<img src="images/sun_twins.png" alt=""/>
-							</span>
-							</p>
+
+
 						</article>
 
 						<!-- Here is the "Community" card. -->
 						<article id="community">
 							<h2 class="major">Community</h2>
-							<span class="image main">
-								<img src="images/pic03.jpg" alt=""/>
+
 							</span>
 							<p>
-								<b>Teaching:</b>
+								<b>Teaching:</b> During my bachelor, I was teaching assistant at class of Stellar Astrophysics. During my Msc, I gave a class at the "Planets and planetary systems" course and some Python tutorials to the
+								new students in our research group.
 							</p>
 							<p>
-								<b>Outreach:</b>
+								<b>Outreach:</b> We had a nice public observing night in Paraty, Rio Janeiro, during the IAUS395 Symposium "Stellar Populations in the Milkyway and Beyond".
+
+								<div style="text-align: center;">
+								  <img src="images/paraty.jpg" style="height: 450px; width: auto;">
+								  <p style="font-style: italic; margin-top: 8px;"></p>
+								</div>
+
 							</p>
 							<p>
-								<b>Equity & Inclusion:</b>
+								<b>Media:</b> Interview to the University of São Paulo website about my work on lithium in solar analogs. Available in Portuguese in this <a href="https://aun.webhostusp.sti.usp.br/index.php/2023/07/13/analise-do-litio-em-estrelas-permite-relaciona-lo-a-composicao-dos-astros/">link.</a>
 							</p>
 						</article>
 
@@ -199,34 +253,34 @@
 								These icons are rendered using Font Awesome fonts, and you can find more icons
 								here: https://fontawesome.com/icons
 							-->
-							<ul class="icons">
-								<!-- The Twitter icon -->
-								<li>
-									<!-- 	Note that you need to change the link to point to your page.
-										Replace "#" with your Twitter profile page.
-									-->
-									<a href="#" class="icon fa-twitter">
-										<span class="label">Twitter</span>
-									</a>
-								</li>
-								<!-- The Facebook icon -->
-								<li>
-									<a href="#" class="icon fa-facebook">
-										<span class="label">Facebook</span>
-									</a>
-								</li>
-								<!-- The Instagram icon -->
-								<li>
-									<a href="#" class="icon fa-instagram">
-										<span class="label">Instagram</span>
-									</a>
-								</li>
-								<!-- The GitHub icon -->
-								<li>
-									<a href="#" class="icon fa-github">
-										<span class="label">GitHub</span>
-									</a>
-								</li>
+<!--							<ul class="icons">-->
+<!--								&lt;!&ndash; The Twitter icon &ndash;&gt;-->
+<!--								<li>-->
+<!--									&lt;!&ndash; 	Note that you need to change the link to point to your page.-->
+<!--										Replace "#" with your Twitter profile page.-->
+<!--									&ndash;&gt;-->
+<!--									<a href="#" class="icon fa-twitter">-->
+<!--										<span class="label">Twitter</span>-->
+<!--									</a>-->
+<!--								</li>-->
+<!--								&lt;!&ndash; The Facebook icon &ndash;&gt;-->
+<!--								<li>-->
+<!--									<a href="#" class="icon fa-facebook">-->
+<!--										<span class="label">Facebook</span>-->
+<!--									</a>-->
+<!--								</li>-->
+<!--								&lt;!&ndash; The Instagram icon &ndash;&gt;-->
+<!--								<li>-->
+<!--									<a href="#" class="icon fa-instagram">-->
+<!--										<span class="label">Instagram</span>-->
+<!--									</a>-->
+<!--								</li>-->
+<!--								&lt;!&ndash; The GitHub icon &ndash;&gt;-->
+<!--								<li>-->
+<!--									<a href="#" class="icon fa-github">-->
+<!--										<span class="label">GitHub</span>-->
+<!--									</a>-->
+<!--								</li>-->
 								<!-- 	We can add a new icon by searching on the Font Awesome website
 									for the correct class name and inserting it as a new list item.
 
@@ -246,7 +300,9 @@
 						<!-- 	You can change "Untitled" to your name to show everyone that
 							this is your work.
 						-->
+						<p style="font-size: 16px; font-style: italic;">Last update: June 24, 2025.</p>
 						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+
 					</footer>
 
 			</div>
